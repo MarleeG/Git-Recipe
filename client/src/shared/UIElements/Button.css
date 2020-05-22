@@ -1,0 +1,14 @@
+button {
+  width: 55vw;
+  height: 12vh;
+  margin-top: 5vw;
+  font-size: 5vw;
+  background-color: white;
+  border: .2vw solid #d3cce3;
+}
+
+button:hover {
+  background-color: #d3cce3;
+  color: white;
+  /* font-weight: bolder; */
+}
