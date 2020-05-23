@@ -8,6 +8,7 @@ import {
 import Home from "./home/pages/home";
 
 import "./App.css";
+import Recipe from "./recipe/pages/recipe";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <Switch>
             <Route path='/' exact>
               <Home/>
+            </Route>
+            <Route path='/recipe' exact>
+              <Recipe/>
             </Route>
 
             <Redirect to="/"/>

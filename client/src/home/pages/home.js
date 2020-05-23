@@ -1,5 +1,6 @@
 import React from "react";
-import Button from '../../shared/UIElements/Button';
+import { NavLink } from "react-router-dom";
+import Button from "../../shared/UIElements/Button";
 
 import "./home.css";
 
@@ -7,7 +8,6 @@ const Home = () => {
   return (
     <div className="page odd-radius home__container">
       <div className="home__wrapper center">
-          
         <div className="home__header-wrap">
           <h1 className="font-sac">Get Recipe</h1>
         </div>
@@ -19,9 +19,9 @@ const Home = () => {
           </p>
         </div>
 
-        <Button text='BEGIN'/>
-
-
+        <NavLink to='/recipe'>
+          <Button text="BEGIN" />
+        </NavLink>
       </div>
     </div>
   );
