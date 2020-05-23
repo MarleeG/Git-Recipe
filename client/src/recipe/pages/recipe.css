@@ -1,0 +1,25 @@
+.recipe__wrapper{
+    border: 2px dotted blueviolet;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe__col{
+    border: 2px dotted red;
+    width: 50%;
+}
+
+/* LEFT-TOP */
+.recipe__col-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe__inner-col{
+    border: 1px dotted pink;
+    height: 50%;
+
+}
